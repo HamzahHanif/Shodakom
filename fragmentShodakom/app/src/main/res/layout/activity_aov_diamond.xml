@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="72dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:text="Top Up"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinssemi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.391"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="45dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/back_24"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="96dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/img_9">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:text="ARENA OF VALOR"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/poppinsextra"
+
+        app:layout_constraintStart_toEndOf="@+id/imageview"
+        app:layout_constraintTop_toTopOf="@+id/imageview">
+
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/badgeaov"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toEndOf="@+id/imageview"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="338dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="424dp"
+        android:background="@drawable/img_13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="328dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/interbold"
+        android:text="Select Item"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/interbold"
+        android:text="Garena ID"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="346dp">
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnn1"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="328dp"
+        android:background="@drawable/img_14"
+        android:backgroundTint="@color/primary"
+        android:text="    90 Vouchers                                               Rp. 20.000"
+        android:fontFamily="@font/inter_bold"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <Button
+        android:id="@+id/btnn2"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/img_14"
+        android:text="    230 Vouchers                                            Rp. 50.000"
+        android:fontFamily="@font/inter_bold"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <Button
+        android:id="@+id/btnn3"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/img_14"
+        android:text="    470 Vouchers                                          Rp. 100.000"
+        android:fontFamily="@font/inter_bold"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <Button
+        android:id="@+id/btnn4"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="164dp"
+        android:background="@drawable/img_14"
+        android:text="    950 Vouchers                                         Rp. 200.000"
+        android:fontFamily="@font/inter_bold"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <Button
+        android:id="@+id/btnn5"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/img_14"
+        android:text="    1430 Vouchers                                       Rp. 300.000"
+        android:fontFamily="@font/inter_bold"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+    <ImageView
+        android:layout_width="352dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/img_15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Rp. 20.000"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:fontFamily="@font/interex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt5"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="140dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/img_16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"></Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/nav_topup"
+        android:icon="@drawable/baseline_diamond_24"
+        android:title="Top Up"/>
+
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/baseline_newspaper_24"
+        android:title="E-Sport"/>
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="Chat"/>
+</menu>

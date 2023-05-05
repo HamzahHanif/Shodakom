@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FragmentShodakom"
+        tools:targetApi="31">
+        <activity
+            android:name=".newskeempat"
+            android:exported="false" />
+        <activity
+            android:name=".newsketiga"
+            android:exported="false" />
+        <activity
+            android:name=".Succes"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet_Bank"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet_Qriss"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet_Ovo"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet_Gopay"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet_Shopee"
+            android:exported="false" />
+        <activity
+            android:name=".newskedua"
+            android:exported="false" />
+        <activity
+            android:name=".Redirecting"
+            android:exported="false" />
+        <activity
+            android:name=".Wallet_Dana"
+            android:exported="false" />
+        <activity
+            android:name=".newspertama"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VALO_Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".PUBG_Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".ML_Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".AOV_Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".Ga_Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDashboard_6"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDashboard_5"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDashboard_4"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDashboard_3"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDashboard_2"
+            android:exported="false" />
+        <activity
+            android:name=".FF_Diamond"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDashboard_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

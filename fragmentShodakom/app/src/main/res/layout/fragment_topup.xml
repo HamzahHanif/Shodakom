@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".TopupFragment"
+    android:id="@+id/ft">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="393dp"
+        android:layout_height="68dp"
+        android:background="@drawable/img_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/mg"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:background="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:padding="5dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mg"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/activity_item_dashboard1"/>
+            <include
+                layout="@layout/activity_item_dashboard2"/>
+            <include
+                layout="@layout/activity_item_dashboard3"/>
+            <include
+                layout="@layout/activity_item_dashboard4"/>
+            <include
+                layout="@layout/activity_item_dashboard5"/>
+            <include
+                layout="@layout/activity_item_dashboard6"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
